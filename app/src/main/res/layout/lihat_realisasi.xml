@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/keluhan"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="16sp"
+        android:textColor="#FFF" />
+
+    <EditText
+        android:id="@+id/realisasi_nama"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:inputType="textMultiLine"
+        android:hint="Tulis Realisasi"
+        android:textSize="16sp"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/realisasi_foto_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/black_overlay"
+        android:text="Pilih Foto Realisasi"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/realisasi_foto_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/black_overlay"
+        android:text="Pilih Foto Realisasi"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/realisasi_foto_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/black_overlay"
+        android:text="Pilih Foto Realisasi"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/realisasi_foto_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/black_overlay"
+        android:text="Pilih Foto Realisasi"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/realisasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/black_overlay"
+        android:text="Simpan Realisasi"
+        android:textColor="#FFF" />
+
+</LinearLayout>

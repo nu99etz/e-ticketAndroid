@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="8dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_id_pelanggan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Pelanggan" />
+
+        <TextView
+            android:id="@+id/tv_nama_pelanggan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Pegawai" />
+
+        <TextView
+            android:id="@+id/tv_alamat_pelanggan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat Pelanggan" />
+
+        <TextView
+            android:id="@+id/tv_tanggal_lahir_pelanggan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir Pelanggan" />
+
+    </LinearLayout>
+
+</LinearLayout>
